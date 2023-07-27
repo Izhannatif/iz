@@ -127,6 +127,7 @@ body:hover>.trailer {
     font-weight: 800;
     filter: hue-rotate(330deg);
     margin: 1.5vmin;
+    font-size: 2.2vmin;
 }
 
 .main-container-1,
@@ -471,7 +472,7 @@ body:hover>.trailer {
 }
 
 .main-container-2>.skills-content {
-    margin: 5vh 0px 1vh 0px;
+    margin: 5.5vh 0px 1vh 0px;
     padding: 2vh 0px 2vh 0px;
     text-align: center;
     display: block;
@@ -490,8 +491,9 @@ body:hover>.trailer {
 .skills-heading {
     text-align: center;
     /* position: fixed; */
+    font-size: 5vmin;
     margin: 3vmin;
-    margin-top: 1vmin;
+    margin-top: 1vmin !important;
     margin: 0 !important;
     text-shadow: 1px 2px 2px #20C20E;
     color: rgba(245, 245, 245, 0.856);
@@ -820,19 +822,21 @@ body:hover>.trailer {
     }
 }
 
-.main-container-3 {
+/* .main-container-3 {
     overflow-y: scroll;
-}
+} */
 
 .project-main-div {
     z-index: 1112;
     margin-top: 8vh;
     height: 87vh;
     /* max-height: 87vh; */
-    min-width: 70vw;
+    /* min-width:60vw;
+    max-width: 60vw; */
     max-width: 70vw;
+    width: fit-content;
     margin-bottom: 3vh;
-    width: 75vw;
+    /* width: 75vw; */
     overflow-y: scroll !important;
     /* background-color: #20c20e11; */
 }
@@ -842,10 +846,11 @@ body:hover>.trailer {
     margin: 1vmin auto;
     font-size: 3.5vmax;
     color: #20c20e9c;
+    text-shadow: 0px 0px 7px #20C20E;
 }
 
 .project-box {
-    margin: 5vmin;
+    margin: 2vmin;
     display: flex;
     gap: 5vmin;
     align-items: center;
@@ -857,13 +862,15 @@ body:hover>.trailer {
 .project {
     display: grid;
     place-items: center;
-    flex: 1 0 25vh;
+    flex: 1 0 30vh;
     height: 25vh;
-    width: 30vh;
-    /* background-color: #20c20e15; */
+    /* min-width: 35vmin; */
+    max-width: 37vmax;
+    width: 36vmax;
     transition: 0.7s all ease-in-out;
-    margin: 2vmin;
+    margin: 2vmin 0;
     animation: fade-in 0.75s ease-in ;
+    /* background-color: wheat; */
 }
 @keyframes fade-in {
     from{
@@ -889,17 +896,13 @@ body:hover>.trailer {
 
 }
 
-.project-image img {
-    height: 20vh !important;
-    object-fit: cover !important;
-}
 
 .project-details {
     color: whitesmoke;
     display: grid;
     place-items: center;
     height: 6vh;
-    width: 30vh;
+    width: 20vh;
     background-color: #20c20e1e;
     z-index: 3;
     transition: 0.7s all ease-in-out;
