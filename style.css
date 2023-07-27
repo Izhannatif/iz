@@ -862,7 +862,7 @@ body:hover>.trailer {
 .project {
     display: grid;
     place-items: center;
-    flex: 1 0 30vh;
+    flex: 1 0 20vw;
     height: 25vh;
     /* min-width: 35vmin; */
     max-width: 37vmax;
